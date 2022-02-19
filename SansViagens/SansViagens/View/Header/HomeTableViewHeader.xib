@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HomeTableViewHeader" customModule="SansViagens" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="518" height="344"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pEj-Jq-Qyd" userLabel="Header View">
+                    <rect key="frame" x="-241" y="-26" width="1000" height="250"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="San's Viagens" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kbH-40-9sF">
+                            <rect key="frame" x="263" y="48" width="146.5" height="32.5"/>
+                            <fontDescription key="fontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="23"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                            <variation key="heightClass=regular-widthClass=regular">
+                                <fontDescription key="fontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="35"/>
+                            </variation>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="0.57647058823529407" blue="0.0039215686274509803" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="250" id="ICk-6w-OFt"/>
+                        <constraint firstItem="kbH-40-9sF" firstAttribute="top" secondItem="pEj-Jq-Qyd" secondAttribute="top" constant="48" id="Ly9-bq-T6Y"/>
+                        <constraint firstAttribute="width" constant="1000" id="qKW-7o-jqn"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="huf-WK-UWr" userLabel="Banner View">
+                    <rect key="frame" x="20" y="104" width="479" height="130"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="87O-XT-Cxi">
+                            <rect key="frame" x="0.0" y="0.0" width="255.5" height="130"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Aproveite o verão com:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Urb-H3-dfB">
+                                    <rect key="frame" x="16" y="14" width="223.5" height="62"/>
+                                    <fontDescription key="fontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="22"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ofertas exclusivas somente no nosso app" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YKC-1v-c5h">
+                                    <rect key="frame" x="16" y="82" width="223.5" height="34"/>
+                                    <fontDescription key="fontDescription" name="KohinoorDevanagari-Regular" family="Kohinoor Devanagari" pointSize="12"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" red="0.49360795454545453" green="0.017893224307299338" blue="0.65067744755244761" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="Urb-H3-dfB" secondAttribute="trailing" constant="16" id="DKa-ln-d9M"/>
+                                <constraint firstItem="Urb-H3-dfB" firstAttribute="top" secondItem="87O-XT-Cxi" secondAttribute="top" constant="14" id="Gys-aj-HUd"/>
+                                <constraint firstItem="YKC-1v-c5h" firstAttribute="leading" secondItem="87O-XT-Cxi" secondAttribute="leading" constant="16" id="RSS-7t-RvI"/>
+                                <constraint firstItem="Urb-H3-dfB" firstAttribute="leading" secondItem="87O-XT-Cxi" secondAttribute="leading" constant="16" id="cHx-Ue-PGI"/>
+                                <constraint firstAttribute="bottom" secondItem="YKC-1v-c5h" secondAttribute="bottom" constant="14" id="epD-Ob-GQD"/>
+                                <constraint firstAttribute="trailing" secondItem="YKC-1v-c5h" secondAttribute="trailing" constant="16" id="h2d-Ib-pEG"/>
+                            </constraints>
+                        </view>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="12" translatesAutoresizingMaskIntoConstraints="NO" id="wij-LQ-EGt">
+                            <rect key="frame" x="303" y="0.0" width="176" height="130"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="176" id="fbY-d4-LxL"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="87O-XT-Cxi" firstAttribute="width" secondItem="huf-WK-UWr" secondAttribute="width" multiplier="0.533333" id="0DK-1Q-RPP"/>
+                        <constraint firstAttribute="height" constant="130" id="9Gb-Ld-0yj"/>
+                        <constraint firstAttribute="bottom" secondItem="87O-XT-Cxi" secondAttribute="bottom" id="MV2-I0-cU2"/>
+                        <constraint firstItem="wij-LQ-EGt" firstAttribute="top" secondItem="huf-WK-UWr" secondAttribute="top" id="Vly-Qf-UQM"/>
+                        <constraint firstAttribute="bottom" secondItem="wij-LQ-EGt" secondAttribute="bottom" id="brk-oz-NAf"/>
+                        <constraint firstItem="87O-XT-Cxi" firstAttribute="leading" secondItem="huf-WK-UWr" secondAttribute="leading" id="q7k-Cx-OAY"/>
+                        <constraint firstAttribute="trailing" secondItem="wij-LQ-EGt" secondAttribute="trailing" id="yN2-dv-FCT"/>
+                        <constraint firstItem="87O-XT-Cxi" firstAttribute="top" secondItem="huf-WK-UWr" secondAttribute="top" id="z2Z-ba-6tU"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="pEj-Jq-Qyd" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="-26" id="Asb-R1-ijb"/>
+                <constraint firstItem="kbH-40-9sF" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="22" id="Y4c-iL-ktG"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="huf-WK-UWr" secondAttribute="trailing" constant="19" id="aAx-73-HxS"/>
+                <constraint firstItem="pEj-Jq-Qyd" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="bXe-JJ-AFz"/>
+                <constraint firstItem="huf-WK-UWr" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="nve-Km-Szl"/>
+                <constraint firstItem="huf-WK-UWr" firstAttribute="bottom" secondItem="pEj-Jq-Qyd" secondAttribute="bottom" constant="10" id="vHS-Te-y6X"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="bannerImageView" destination="wij-LQ-EGt" id="bqm-LX-o5V"/>
+                <outlet property="bannerView" destination="huf-WK-UWr" id="m6N-Yk-nAx"/>
+                <outlet property="headerView" destination="pEj-Jq-Qyd" id="CR1-Dp-Iu6"/>
+                <outlet property="tituloLabel" destination="kbH-40-9sF" id="1hh-Nc-ndu"/>
+            </connections>
+            <point key="canvasLocation" x="170.37037037037035" y="137.77777777777777"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="12" width="1920" height="1080"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
